@@ -9,9 +9,12 @@
     android:background="#FF000000"
     tools:context=".ViewProfileImageActivity">
 
-    <ImageView
+    <com.github.chrisbanes.photoview.PhotoView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/ui_profile_image"/>
+
+
+
 
 </LinearLayout>
